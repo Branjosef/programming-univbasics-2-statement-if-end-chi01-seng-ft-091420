@@ -1,4 +1,6 @@
 # Write your solution here
-time = Time.now 
-
-If time.eve
+If Time.now.to_i % 2 == 0 
+  puts "Even!"
+else
+  puts "Odd!"
+end
